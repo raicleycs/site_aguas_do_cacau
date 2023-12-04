@@ -1,4 +1,4 @@
-/* styles.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 * {
     margin: 0;
@@ -126,7 +126,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f6e1d8; /* Cor de fundo suave */
+    background-color: #f6e1d8; 
 }
 
 .container {
@@ -141,18 +141,18 @@ body {
     width: calc(33.33% - 20px);
     box-sizing: border-box;
     padding: 20px;
-    border: 2px solid #d9b29c; /* Cor da borda */
+    border: 2px solid #d9b29c; 
     margin: 10px;
     background-color: #fff;
     text-align: center justify;
     transition: transform 0.2s;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
     font-family: 'poppins', sans-serif;
 }
 
 .product:hover {
     transform: scale(1.05);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de destaque no hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .product img {
@@ -160,15 +160,15 @@ body {
 }
 
 .product h2 {
-    font-size: 1.5rem; /* Tamanho da fonte maior */
+    font-size: 1.5rem; 
     margin: 15px 0;
-    color: #5e3023; /* Cor do título */
-    text-align;
+    color: #5e3023; 
+    text-align:justify;
 }
 
 .product p {
-    font-size: 1rem; /* Tamanho da fonte do texto maior */
-    color: #8a6256; /* Cor do texto */
+    font-size: 1rem; 
+    color: #8a6256; 
 }
 
 button {
