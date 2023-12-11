@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Vendas</title>
+  <link rel="stylesheet" href="css/stylecompra.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="pagina inicial.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="produtoscerto.html">Produtos</a></li>
+        <li><a href="promoções.html">Promoções</a></li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="section-title">
+    <h1> Finalizar compra</h1>
+  </div>
+
+  <main>
+    <div class="product-details">
+      <div class="product-image">
+        <img src="img/POTES (1).png" alt="Nome do Produto">
+      </div>
+      <div class="product-info">
+        <h2>Combo dos potinhos 90g cada </h2>
+
+        <p> Combo de dois potinhos: bolinhas de café com chocolate colombiano e doce de leite argentino e uruguaio. Experiência culinária sofisticada, unindo intensidade e requinte do café com suavidade do chocolate e o pote com textura cremosa e sabor caramelizado do doce de leite. Uma fusão única entre as culturas gastronômicas de La Plata e Colômbia. Ideal para você que quer saborear um sabor de duas coleções. 
+
+  
+</p>
+        <p>Preço: R$ 20,00</p>
+      </div>
+      <input type="number" value="1" min="1" max="10">
+    </div>
+
+    <div class="checkout-button">
+      <button onclick="adicionarAoCarrinho()">adicionar ao carrinho</button>
+    </div>
+    <script>
+      function adicionarAoCarrinho() {
+          alert("Produtos adicionados ao carrinho!");
+        
+      }
+  </script>
+  </main>
+</body>
+
+</html>

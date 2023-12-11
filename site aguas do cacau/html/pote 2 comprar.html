@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Vendas</title>
+  <link rel="stylesheet" href="css/stylecompra.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="pagina inicial.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="produtoscerto.html">Produtos</a></li>
+        <li><a href="promoções.html">Promoções</a></li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="section-title">
+    <h1> Finalizar compra</h1>
+  </div>
+
+  <main>
+    <div class="product-details">
+      <div class="product-image">
+        <img src="img/POTE 2.png" alt="Nome do Produto">
+      </div>
+      <div class="product-info">
+        <h2>Pote de doce de leite 100g</h2>
+        <p>Um potinho de doce de leite argentino é uma indulgência sublime que captura a essência da tradição e da doçura da culinária argentina. Este tesouro culinário oferece uma experiência sensorial rica, com sua textura cremosa e o sabor inconfundível do leite caramelizado. Ao abrir o potinho, você será saudado por um aroma irresistível de caramelo e leite, que imediatamente evoca a sensação de aconchego e tradição. O doce de leite argentino, conhecido por sua consistência suave e cor dourada, é apresentado de maneira convidativa, sugerindo uma experiência gourmet autêntica. O potinho também traz essência argentina e uruguaia, fazendo parte da coleção Sabores de La Plata. </p>
+        <p>Preço: R$ 15,00</p>
+      </div>
+      <input type="number" value="1" min="1" max="10">
+    </div>
+
+    <div class="checkout-button">
+      <button onclick="adicionarAoCarrinho()">adicionar ao carrinho</button>
+    </div>
+    <script>
+      function adicionarAoCarrinho() {
+          alert("Produtos adicionados ao carrinho!");
+        
+      }
+  </script>
+  </main>
+</body>
+
+</html>
